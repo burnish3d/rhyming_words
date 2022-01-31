@@ -1,4 +1,4 @@
-const rhymeDisplay = (props) => {
+const RhymeDisplay = (props) => {
   console.log(props.words)  
   
   return <h1>Hi mom</h1>
@@ -14,4 +14,4 @@ const rhymeDisplay = (props) => {
   //   return movie ? loaded() : loading();
 };
 
-export default rhymeDisplay;
+export default RhymeDisplay;

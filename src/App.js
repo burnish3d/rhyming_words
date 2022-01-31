@@ -1,7 +1,7 @@
 import './App.css';
 import Form from "./components/Form";
 import {useEffect, useState} from "react";
-
+import RhymeDisplay from "./components/Display";
 
 function App() {
   const url = "https://rhyming-backend.herokuapp.com/"
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Form />
-      <rhymeDisplay words={rhymeWords} />
+      <RhymeDisplay words={rhymeWords} />
     </div>
   );
 }

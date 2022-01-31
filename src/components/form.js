@@ -11,7 +11,6 @@ const Form = (props) => {
 
     const handleSubmit = (evt) => {
         evt.preventDefault(); // prevent browser refresh
-        props.getMovie(formState.searchTerm);
         setFormState({searchTerm: ""}); // clear the form after submit
 
     }
