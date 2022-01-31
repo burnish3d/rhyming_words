@@ -14,4 +14,4 @@ const rhymeDisplay = (props) => {
   //   return movie ? loaded() : loading();
 };
 
-export default rhymDisplay;
+export default rhymeDisplay;
